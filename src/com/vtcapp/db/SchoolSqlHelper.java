@@ -19,14 +19,14 @@ public class SchoolSqlHelper {
 		this.dbOpenhelper = new DBOpenHelper(context);
 	}
 	
-	// Ôö¼Ó
+
 	public void save(SchoolInfo school) {
 		SQLiteDatabase db = dbOpenhelper.getWritableDatabase();
 		db.execSQL("insert into myschool(schoolname, schoolcontent) values(?,?)", 
 				new Object[]{school.getSchoolName(), school.getSchoolContent()}
 				);
 	}
-	// É¾³ı
+	
 	public void delete(SchoolInfo school) {
 		SQLiteDatabase db = dbOpenhelper.getWritableDatabase();
 		db.execSQL("delete from myschool where id=?",
@@ -40,9 +40,9 @@ public class SchoolSqlHelper {
 	
 	public List<SchoolInfo> getSchoolSqlData() {
 		List<SchoolInfo> schools = new ArrayList<SchoolInfo>();
-		SQLiteDatabase db = dbOpenhelper.getReadableDatabase();	// Èç¹ûÖ»ÊÇ¶ÁÊı¾İ£¬ÄÇÃ´½¨ÒéÓÃ´Ë·½·¨
+		SQLiteDatabase db = dbOpenhelper.getReadableDatabase();	// å¦‚æœåªæ˜¯è¯»æ•°æ®ï¼Œé‚£ä¹ˆå»ºè®®ç”¨æ­¤æ–¹æ³•
 		Cursor cursor = db.rawQuery("select * from myschool", null);
-		while(cursor.moveToNext()) {	// ÒÆ¶¯µ½ÏÂÒ»Ìõ¼ÇÂ¼
+		while(cursor.moveToNext()) {	// ç§»åŠ¨åˆ°ä¸‹ä¸€æ¡è®°å½•
 			int schoolid = cursor.getInt(cursor.getColumnIndex("id"));
 			String schoolname = cursor.getString(cursor.getColumnIndex("schoolname"));
 			String schoolcontent = cursor.getString(cursor.getColumnIndex("schoolcontent"));
