@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- 导航栏 -->
+    <com.vtcapp.widget.MenuTop
+        android:id="@+id/allschool_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.vtcapp.widget.MenuTop>
+    
+    <!-- 此布局在此用来占位 -->
+    <FrameLayout
+        android:id="@+id/allschool_fl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </FrameLayout>
+    
+    <RadioGroup
+        android:id="@+id/allschool_rg"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#06529c"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/allschool_rg_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/school_bottom01_selector"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:text="学校" />
+
+        <RadioButton
+            android:id="@+id/inschool_rg_bm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/school_bottom01_selector"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:text="政策" />
+
+        <RadioButton
+            android:id="@+id/colschool_rg_sc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/school_bottom01_selector"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:text="收藏" />
+
+        
+    </RadioGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--     学校大全
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff" >
+
+        <EditText
+            android:layout_height="fill_parent"
+            android:layout_weight="6"
+            android:hint="校名" />
+
+        <ImageButton
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="centerInside"
+            android:src="@drawable/imgbtn_find" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_allschool"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:cacheColorHint="#CCCCCC" /> -->
+        
+        
+
+</LinearLayout>

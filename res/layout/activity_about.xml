@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDC1C9"
+    android:orientation="vertical" >
+    
+    <!-- 导航栏 -->
+    <com.vtcapp.widget.MenuTop
+        android:id="@+id/about_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.vtcapp.widget.MenuTop>
+    
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/zxt_logo" />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="职校通1.0"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        />
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+       	android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/tv_about01"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="邮箱"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_toRightOf="@id/tv_about01"
+            android:layout_marginLeft="10dp"
+            android:text="15949585756@163.com"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+       	android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/tv_about02"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="QQ"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/tv_about02"
+            android:layout_marginLeft="10dp"
+            android:text="215069587"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+       	android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="\t职校通1.0于2015年10月12日正式开发，为广大想要报考职校的学生提供一个免费的校园信息资讯平台，同时也为企业提供招聘信息发布平台，实现“学技术，找工作”一条龙服务。还可帮助学生了解职业行情，更好的规划自己的职业生涯。"
+            android:textSize="12sp" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

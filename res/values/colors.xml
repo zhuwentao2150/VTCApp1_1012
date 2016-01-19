@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="Heavy_black">#484848</color>
+    <color name="somber">#8F8C89</color>
+    <color name="transparent">#00000000</color>
+    <color name="gold">#b89766</color>
+    <color name="select">#00617c</color>
+    <color name="light_gray">#33000000</color>
+    <color name="huise">#cccccc</color>
+    
+      <!--    导航 -->
+    <color name="grey"> #ebebeb</color>
+    <color name="black"> #000000</color>
+    <color name="darkgrey"> #C0C0C0</color>
+     <color name="red"> #FF0000</color>
+</resources>

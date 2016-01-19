@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zygh_bj"
+    android:orientation="vertical" >
+    
+    <com.vtcapp.widget.MenuTop
+        android:id="@+id/vocgh_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.vtcapp.widget.MenuTop>
+
+    <TextView
+        android:id="@+id/tv_vocgh"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:text="wenz"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    
+    <!-- 导航栏 -->
+    <com.vtcapp.widget.MenuTop
+        android:id="@+id/vocationplan_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.vtcapp.widget.MenuTop>
+    
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/show1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/vocation01" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/show2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/vocation02" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/show3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/vocation03" />
+        </LinearLayout>
+    </ViewFlipper>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/vocplan_01"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="职业测试"
+            android:background="@drawable/select_btn_main"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/vocplan_02"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:text="学习计划"
+            android:background="@drawable/select_btn_main"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/vocplan_03"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:text="职业前景"
+            android:background="@drawable/select_btn_main"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+</LinearLayout>

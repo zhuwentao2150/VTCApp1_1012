@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <!-- 导航栏 -->
+
+    <com.vtcapp.widget.MenuTop
+        android:id="@+id/workbrief_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.vtcapp.widget.MenuTop>
+
+    <!-- 可以流式布局的自定义RadioGroup -->
+
+    <com.vtcapp.widget.FlowRadioGroup
+        android:id="@+id/rg_workbrief"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#06529c"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/select_btn_main"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="钳工"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_btn_main"
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="镗工"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/select_btn_main"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="车工"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/select_btn_main"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="电工"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/select_btn_main"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="磨工"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/select_btn_main"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="调酒"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/select_btn_main"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="美发"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/select_btn_main"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="茶艺"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/select_btn_main"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="衣师"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_btn_main"
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="保育"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/select_btn_main"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="焊工"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/select_btn_main"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="公关"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/select_btn_main"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="护士"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rg_workbrief_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/select_btn_main"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="面师"
+            android:textColor="#ffffff" />
+    </com.vtcapp.widget.FlowRadioGroup>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/wenzbj" >
+
+        <TextView
+            android:id="@+id/tv_workbrief_brief"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="55dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="55dp"
+            android:padding="15dp"
+            android:text="文字"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+</LinearLayout>

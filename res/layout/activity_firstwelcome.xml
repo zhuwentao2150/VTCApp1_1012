@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/welcome_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="75dp"
+        android:orientation="vertical" >
+        
+	    <LinearLayout
+	        android:id="@+id/imageslinearlayout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:orientation="horizontal" >
+	    </LinearLayout>
+	    <Button 
+	        android:id="@+id/start_welcome"
+            android:layout_width="168dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:background="@drawable/select_btn_main"
+            android:textColor="#ffffff"
+            android:text="开启职业之旅"
+            android:textSize="15sp"
+            android:visibility="invisible"
+	        />
+	    
+    </LinearLayout>
+
+</RelativeLayout>

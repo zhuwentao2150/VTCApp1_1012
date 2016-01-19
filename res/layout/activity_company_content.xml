@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    
+    <!-- 导航栏 -->
+    <com.vtcapp.widget.MenuTop
+        android:id="@+id/comcont_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.vtcapp.widget.MenuTop>
+    
+    <TextView 
+        android:id="@+id/tv_comcont_title"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+        android:text="招聘厨师精英"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="地址"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_comcont_address"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#BDC1C9"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="成都"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="公司"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_comcont_name"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#BDC1C9"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="新东方"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="薪资"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_comcont_wage"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#BDC1C9"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="5000~8000"
+            android:textColor="#ff0000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    
+    
+    
+    
+    <TextView 
+        android:id="@+id/tv_comcont_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        />
+    
+    <Button 
+        android:id="@+id/btn_comcont_yingpin"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="应聘"
+        android:background="@drawable/select_btn_main"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

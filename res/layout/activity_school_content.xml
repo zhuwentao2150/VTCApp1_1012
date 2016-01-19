@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    
+    <!-- 导航栏 -->
+    <com.vtcapp.widget.MenuTop
+        android:id="@+id/schcontent_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.vtcapp.widget.MenuTop>
+    
+    <TextView 
+        android:id="@+id/tv_schoolcen_name"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="蓝翔高级技工学校"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+    
+    <com.amap.mapapi.map.MapView
+        android:id="@+id/mapView"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:clickable="true" />
+    
+    <TextView 
+        android:id="@+id/tv_schoolcen_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="哈哈哈"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        />
+    
+    <Button 
+        android:id="@+id/btn_schoolcen_baoming"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="报名"
+        android:background="@drawable/select_btn_main"
+        android:layout_gravity="center"
+        />
+    
+
+</LinearLayout>

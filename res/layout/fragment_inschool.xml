@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDC1C5"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="@color/red"
+        android:textSize="16sp"
+        android:text="已经报名了的学校"
+        />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        ptr:ptrHeaderBackground="#CDC1C5"
+        android:id="@+id/lv_inschool"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:divider="#000000"
+        android:dividerHeight="1dp" />
+
+
+
+</LinearLayout>
